@@ -1,5 +1,5 @@
-Table of Contents
+## Table of Contents
 
 {% for page in site.pages %}
- - {{page.title}}
+ - [{{page.title}}]({{page.url}})
 {% endfor %}
