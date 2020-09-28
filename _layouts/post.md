@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h3>{{ title }} </h3>
-<p class="meta"> {{ author }}</p>
+<h3>{{ page.title }} </h3>
+<p class="meta"> {{ page.author }}</p>
 
 <div class="post">
   {{ content }}
