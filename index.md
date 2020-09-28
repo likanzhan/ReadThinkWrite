@@ -1,5 +1,6 @@
 ## Table of Contents
 
-{% for page in {{ site.pages | sort: "date", "last" }} %}
+{% site.pages = site.pages | sort: "date", "last" %}
+{% for page in site.pages %}
  - {{page.date}}: [{{page.title}}]({{site.url}}{{page.url}})
 {% endfor %}
