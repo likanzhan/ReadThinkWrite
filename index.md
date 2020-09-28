@@ -1,6 +1,6 @@
 ## Table of Contents
 
-{{ site.pages | sort: "date", "last" }}
-{% for page in site.pages %}
+ {% assign SortedPages = site.pages | sort: "date", "last" %}
+{% for page in SortedPages %}
  - {{page.date}}-{{page.author}}-[{{page.title}}]({{site.url}}{{page.url}})
 {% endfor %}
