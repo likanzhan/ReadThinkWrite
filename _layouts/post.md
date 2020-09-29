@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h4>{{ page.title }} </h4>
-<p class="meta"> {{ page.author }} - {{page.date | date: "%Y-%m-%d" }} </p>
+<h4 style="text-align:center">{{ page.title }} </h4>
+<p class="meta" style="text-align:center"> {{ page.author }} - {{page.date | date: "%Y-%m-%d" }} </p>
 
 <div class="post">
   {{ content }}
