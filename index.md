@@ -1,6 +1,6 @@
 {% for page in site.posts %}
 {% assign author_size = page.author | size | minus: 3 %}
-{% if author_size > 0 %}
+{% if author_size == 1 %}
 {% assign author = "L" %}
 {% else %}
 {% assign author = "SS" %}
