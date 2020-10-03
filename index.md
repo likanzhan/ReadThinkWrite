@@ -3,6 +3,6 @@
 {% if author_size == 0 %}
  - {{page.date | date: "%Y-%m-%d" }}-{{page.author}}-[{{page.title}}]({{site.url}}{{page.url}})
 {% else %}
- - {{page.date | date: "%Y-%m-%d" }}-{{page.author | append: "    "}}-[{{page.title}}]({{site.url}}{{page.url}})
+ - {{page.date | date: "%Y-%m-%d" }}-{{page.author | append: "&nbsp;&nbsp;"}}-[{{page.title}}]({{site.url}}{{page.url}})
 {% endif %}
 {% endfor %}
