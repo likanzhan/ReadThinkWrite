@@ -1,9 +1,9 @@
 {% for page in site.posts %}
 {% assign author_size = page.author | size | minus: 3 %}
 {% if author_size > 0 %}
-{% assign author =  page.author | append: "L" %}
+{% assign author = "L" %}
 {% else %}
-{% assign author =  page.author | append: "SS" %}
+{% assign author = "SS" %}
 {% endif %}
- - {{page.date | date: "%Y-%m-%d" }}-{{page.author}} - {{author}} -[{{page.title}}]({{site.url}}{{page.url}})
+ - {{page.date | date: "%Y-%m-%d" }}-{{page.author}}-{{author}}-{{author_size}}-[{{page.title}}]({{site.url}}{{page.url}})
 {% endfor %}
