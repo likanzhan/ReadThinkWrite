@@ -4,7 +4,7 @@
 {% assign ToAppend = "LL" %}
 {% else %}
 {% assign ToAppend = "S" %}
-{% end%}
+{% endif %}
 {% assign author =  page.author | append: ToAppend %}
  - {{page.date | date: "%Y-%m-%d" }}-{{page.author}} - {{author}} -[{{page.title}}]({{site.url}}{{page.url}})
 {% endfor %}
