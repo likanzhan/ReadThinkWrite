@@ -3,4 +3,4 @@ theme: jekyll-theme-modernist
 title: 读书报告
 description: 学而不思则罔，思而不学则殆。
 name: Read, Think, and Write
-show_downloads: true
+show_downloads: false
