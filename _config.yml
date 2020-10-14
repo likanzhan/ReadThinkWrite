@@ -1,6 +1,7 @@
 url: https://likanzhan.github.io/ReadThinkWrite
+basic_tips: "_posts/2020-01-01-ZLK1.md"
 theme: jekyll-theme-modernist
 title: 读书报告
-description: "[基本要求...](/_posts/2020-01-01-ZLK1.md)"
+description: 学而不思则罔，思而不学则怠。
 name: Read, Think, and Write
 show_downloads: false
