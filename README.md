@@ -1,1 +1,1 @@
-网页地址: [https://likanzhan.github.io/ReadThinkWrite/](https://likanzhan.github.io/ReadThinkWrite/)
+!! 网页已搬迁，请移步至：[http://sapere-aude.group](http://sapere-aude.group).
